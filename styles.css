@@ -1,0 +1,32 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+
+/* Files */
+@import "./css/text.css";
+@import "./css/header.css";
+@import "./css/sections.css";
+@import "./css/contact.css";
+@import "./css/footer.css";
+@import "./css/thanks.css";
+
+
+/* Defaults */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    background-color: #FFFBB9;
+}
+
+ul
+{
+    list-style: none;
+    text-align: left;
+}

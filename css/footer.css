@@ -1,0 +1,22 @@
+/* Footer */
+footer
+{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDA448;
+    border-radius: 12px;
+    color: #ffff;
+    margin: 5%;
+    box-shadow: -20px -20px 30px 0 #FFFFD5, 20px 20px 30px 0 #D9D59D;
+}
+
+.centeredfooter
+{
+    display: table-cell;
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    vertical-align: middle;
+}

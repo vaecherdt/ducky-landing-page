@@ -1,0 +1,49 @@
+/* First Section */
+.title
+{
+    color: #DDA448;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.subtitle
+{
+    color: #613A3A;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+/* Second and Third Section */
+.heading
+{
+    color: #DDA448;
+    font-size: 40;
+}
+
+.body
+{
+    color: #613A3A;
+    font-size: 20;
+}
+
+/* Forth Section */
+.heading2
+{
+    color: #DDA448;
+    font-size: 30;
+}
+
+/* Footer */
+.footer
+{
+    color: #FFFBB9;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.footer2
+{
+    color: #613A3A;
+    font-size: 15px;
+    line-height: 15px;
+}

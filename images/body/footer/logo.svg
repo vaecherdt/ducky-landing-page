@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="203px" height="181px" viewBox="0 0 203 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Medium Duck</title>
+    <defs>
+        <path d="M190.138036,90.4980685 C171.500155,76.8428214 148.691327,79.0434903 120.95551,89.9235728 C93.2196925,100.803655 40.4262801,94.8640846 26.2677361,101.649867 C12.1091922,108.43565 -1.55767841,123.009584 1.66096265,145.865537 C4.87960371,168.721491 28.7127198,181 51.9059378,181 C75.0991557,181 83.1312017,181 148.146339,181 C213.161476,181 208.775916,104.153316 190.138036,90.4980685 Z" id="path-1"></path>
+        <filter x="-2.5%" y="-5.0%" width="105.0%" height="110.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-4" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="2" dy="-2" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.654089734   0 0 0 0 0.681624261   0 0 0 0 0.605645333  0 0 0 0.5 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M125.02086,78.0204384 C137.364266,46.631889 131.171472,23.6879708 106.442478,9.18868393 C69.3489869,-12.5602464 35.1135633,7.91761082 24.4165855,33.0344867 C13.7196077,58.1513626 18.8906603,73.3264707 24.4165855,80.7267423 C29.9425107,88.1270139 34.2520544,88.6334211 29.3473478,97.0519771 C24.4426412,105.470533 75.9854623,113.730395 98.3819578,102.650101 C113.312955,95.2632384 122.192589,87.0533509 125.02086,78.0204384 Z" id="path-3"></path>
+        <filter x="-4.4%" y="-4.6%" width="108.8%" height="109.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-4" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-5" cx="27.9124172" cy="52.3420852" rx="24.6250784" ry="19.5995522"></ellipse>
+        <filter x="-7.6%" y="-9.6%" width="115.2%" height="119.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1.5" dy="0.5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.570684461   0 0 0 0 0.308280595   0 0 0 0 0.308280595  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-652.000000, -1511.000000)">
+            <g id="Footer" transform="translate(50.000000, 1452.000000)">
+                <g id="Medium-Duck" transform="translate(602.814460, 59.000000)">
+                    <g id="Body">
+                        <use fill="#CAFE48" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Head">
+                        <use fill="#CAFE48" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Nose" transform="translate(27.912417, 52.342085) rotate(11.000000) translate(-27.912417, -52.342085) ">
+                        <use fill="#EB5E55" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <ellipse id="Eye" fill="#613A3A" transform="translate(75.780554, 30.983599) rotate(37.000000) translate(-75.780554, -30.983599) " cx="75.7805542" cy="30.9835988" rx="5.65371697" ry="7.5382893"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

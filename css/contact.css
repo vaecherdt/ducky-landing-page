@@ -1,0 +1,37 @@
+/* Input */
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-style: none;
+    border-radius: 12px;
+    background: #fffbb9;
+    box-shadow: inset 10px 10px 20px #d9d59d, inset -10px -10px 20px #ffffd5;
+    color: #DDA448;
+    font-weight: 900;
+}
+
+/* Label */
+label
+{
+    font-size: 15px;
+    color: #613A3A;
+    text-align: justify;
+}
+
+/* Submit Button */
+input[type=submit]
+{
+    color: #DDA448;
+    font-weight: 900;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffffc6, #e6e2a7);
+    box-shadow:  2px 2px 4px #d9d59d, -2px -2px 4px #ffffd5;  
+  }
